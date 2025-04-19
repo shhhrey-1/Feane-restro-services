@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <div class="navbar">
+        <div class="navbar-brand">
+          <h2 id="brand-name" class="dancing-script">Feane</h2>
+          <!-- Navbar items  -->
+        </div>
+        <div class="navbar-items">
+          <div id="options">
+            <div id="home">
+              <a href="/WebDevelopment/Feane/Feane-home/index.html">Home</a>
+            </div>
+            <div id="menu">
+              <a href="/WebDevelopment/Feane/Feane-menu/index.html">Menu</a>
+            </div>
+            <div id="about">
+              <a href="/WebDevelopment/Feane/Feane-about/index.html">About</a>
+            </div>
+            <div id="bookTable">
+              <a href="/WebDevelopment/Feane/Book-table/index.html">Book Table</a>
+            </div>
+          </div>
+          <!-- Navbar icon btns  -->
+          <div id="btns">
+            <div id="acount">
+              <a href=""><i class="bi bi-person-fill"></i></a>
+            </div>
+            <div id="cart">
+              <a href=""><i class="bi bi-cart-fill"></i></a>
+            </div>
+            <div id="search">
+              <a href=""><i class="bi bi-search"></i></a>
+            </div>
+            <div id="orderOnline">
+              <button class="btn btn-warning">Order Online</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+        <div class="menu-area">
+          <div id="our-menu">
+            <h3 class="dancing-script">Our Menu</h3>
+          </div>
+          <div id="menu-buttons">
+            <span id="all-b" class="active">All</span>
+            <span id="burger-b">Burger</span>
+            <span id="pizza-b">Pizza</span>
+            <span id="pasta-b">Pasta</span>
+            <span id="fries-b">Fries</span>
+          </div>
+          <div id="item-cards" >
+            <div class="row">
+              <div class="col-lg-4 col-sm-6 mar Pizza all hide show">
+                <div class="item-card1">
+                  <div class="item-pics"> 
+                    <img src="f1.png" alt="Pizza" />
+                  </div>
+                  <div class="card-dic">
+                    <h5>Delicious Pizza</h5>
+                    <p>
+                      Veniam debitis quaerat officiis quasi cupiditate quo,
+                      quisquam velit, magnam voluptatem repellendus sed eaque
+                    </p>
+                    <div class="price-tag">
+                      <span>$20</span>
+                      <button>
+                        <a href=""><i class="bi bi-cart-fill"></i></a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-sm-6 mar Burger all hide show">
+                <div class="item-card1" >
+                  <div class="item-pics">
+                    <img src="f2.png" alt="Pizza" />
+                  </div>
+                  <div class="card-dic">
+                    <h5>Delicious Burger</h5>
+                    <p>
+                      Veniam debitis quaerat officiis quasi cupiditate quo,
+                      quisquam velit, magnam voluptatem repellendus sed eaque
+                    </p>
+                    <div class="price-tag">
+                      <span>$15</span>
+                      <button>
+                        <a href=""><i class="bi bi-cart-fill"></i></a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-sm-6 mar Pizza all hide show">
+                <div class="item-card1" id="Delicious-Pizza">
+                  <div class="item-pics">
+                    <img src="f3.png" alt="Pizza" />
+                  </div>
+                  <div class="card-dic">
+                    <h>Delicious Pizza</h>
+                    <p>
+                      Veniam debitis quaerat officiis quasi cupiditate quo,
+                      quisquam velit, magnam voluptatem repellendus sed eaque
+                    </p>
+                    <div class="price-tag">
+                      <span>$17</span>
+                      <button>
+                        <a href=""><i class="bi bi-cart-fill"></i></a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-sm-6 mar Pasta all hide show">
+                <div class="item-card1" id="Delicious-Pasta">
+                  <div class="item-pics">
+                    <img src="f4.png" alt="Pizza" />
+                  </div>
+                  <div class="card-dic">
+                    <h5>Delicious Pasta</h5>
+                    <p>
+                      Veniam debitis quaerat officiis quasi cupiditate quo,
+                      quisquam velit, magnam voluptatem repellendus sed eaque
+                    </p>
+                    <div class="price-tag">
+                      <span>$18</span>
+                      <button>
+                        <a href=""><i class="bi bi-cart-fill"></i></a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-sm-6 mar fries all hide show">
+                <div class="item-card1" >
+                  <div class="item-pics">
+                    <img src="f5.png" alt="French-fries" />
+                  </div>
+                  <div class="card-dic">
+                    <h5>French Fries</h5>
+                    <p>
+                      Veniam debitis quaerat officiis quasi cupiditate quo,
+                      quisquam velit, magnam voluptatem repellendus sed eaque
+                    </p>
+                    <div class="price-tag">
+                      <span>$10</span>
+                      <button>
+                        <a href=""><i class="bi bi-cart-fill"></i></a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-sm-6 mar Pizza all hide show">
+                <div class="item-card1" >
+                  <div class="item-pics">
+                    <img src="f6.png" alt="Pizza" />
+                  </div>
+                  <div class="card-dic">
+                    <h5>Delicious Pizza</h5>
+                    <p>
+                      Veniam debitis quaerat officiis quasi cupiditate quo,
+                      quisquam velit, magnam voluptatem repellendus sed eaque
+                    </p>
+                    <div class="price-tag">
+                      <span>$15</span>
+                      <button>
+                        <a href=""><i class="bi bi-cart-fill"></i></a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-sm-6 mar Burger all hide show">
+                <div class="item-card1" >
+                  <div class="item-pics">
+                    <img src="f7.png" alt="Pizza" />
+                  </div>
+                  <div class="card-dic">
+                    <h5>Tasty Burger</h5>
+                    <p>
+                      Veniam debitis quaerat officiis quasi cupiditate quo,
+                      quisquam velit, magnam voluptatem repellendus sed eaque
+                    </p>
+                    <div class="price-tag">
+                      <span>$12</span>
+                      <button>
+                        <a href=""><i class="bi bi-cart-fill"></i></a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="col-lg-4 col-sm-6 mar Burger all hide show">
+                <div class="item-card1" id="Tasty Burger"">
+                <div class="item-pics">
+                  <img src="f8.png" alt="Pizza" />
+                </div>
+                <div class="card-dic">
+                  <h5>Delicious Pizza</h5>
+                  <p>
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                    velit, magnam voluptatem repellendus sed eaque
+                  </p>
+                  <div class="price-tag">
+                    <span>$14</span>
+                    <button>
+                      <a href=""><i class="bi bi-cart-fill"></i></a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-sm-6 mar Pasta all hide show">
+              <div class="item-card1" >
+                <div class="item-pics">
+                  <img src="f9.png" alt="Pizza" />
+                </div>
+                <div class="card-dic">
+                  <h5>Delicious-Pasta</h5>
+                  <p>
+                    Veniam debitis quaerat officiis quasi cupiditate quo, quisquam
+                    velit, magnam voluptatem repellendus sed eaque
+                  </p>
+                  <div class="price-tag">
+                    <span>$10</span>
+                    <button>
+                      <a href=""><i class="bi bi-cart-fill"></i></a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </section>
+
+    <div id="information">
+      <footer>
+        <div id="upperhalfinfo">
+          <div id="contact-us">
+            <h2 class="dancing-script">Contact Us</h2>
+            <div>
+              <a href="">
+                <i class="bi bi-geo-alt-fill"></i>
+                <span>Location</span>
+              </a>
+            </div>
+            <div>
+              <a href="">
+                <i class="bi bi-telephone-fill"></i>
+                <span>Call +01 1234567890 </span>
+              </a>
+            </div>
+            <div>
+              <a href="">
+                <i class="bi bi-envelope-fill"></i>
+                <span>demo@gmail.com</span>
+              </a>
+            </div>
+          </div>
+
+          <div id="feane-last">
+            <h2 class="dancing-script">Feane</h2>
+            <p>
+              Necessary, making this the first true generator on the Internet.
+              It uses a dictionary of over 200 Latin words, combined with
+            </p>
+            <div id="socisl-media">
+              <a href="" id="facebook">
+                <i class="bi bi-facebook"></i>
+              </a>
+
+              <a href="" id="twitter">
+                <i class="bi bi-twitter"></i>
+              </a>
+
+              <a href="" id="linkedin">
+                <i class="bi bi-linkedin"></i>
+              </a>
+
+              <a href="" id="instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+
+              <a href="" id="pinterest">
+                <i class="bi bi-pinterest"></i>
+              </a>
+            </div>
+          </div>
+
+          <div id="opening-hours">
+            <h2 class="dancing-script">Opening Hours</h2>
+            <span>Everyday</span>
+            <span>10.00 Am - 10.00 Pm</span>
+          </div>
+        </div>
+
+        <div id="lowerhalfinfo">
+          <span
+            ><i class="bi bi-c-circle"></i> 2025 All Rights Reserved By Free
+            Html Templates</span
+          >
+          <span><i class="bi bi-c-circle"></i> Designed By Shrey</span>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

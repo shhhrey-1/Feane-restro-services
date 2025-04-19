@@ -1,0 +1,108 @@
+header {
+    padding-top: 14px;
+    background-color: #222831;
+  }
+  
+  #brand-name {
+    color: white;
+    padding-left: 170px;
+  }
+  
+  .dancing-script {
+    font-family: "Dancing Script", cursive;
+  }
+  
+  .navbar-items {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    gap: 30px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #options {
+    display: flex;
+    gap: 35px;
+  }
+  
+  .navbar-items a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .navbar-items a:hover {
+    color: rgb(213, 186, 9);
+  }
+  
+  #btns {
+    display: flex;
+    gap: 25px;
+    padding-right: 200px;
+  }
+  
+  .btn-warning {
+    border-radius: 25px;
+    color: white;
+    width: 150px;
+  }
+  .btn-warning:hover {
+    border-radius: 25px;
+    color: white;
+    width: 150px;
+  }
+
+
+  #book-a-table{
+    display: flex;
+    margin: 100px 0 100px 0;
+    justify-content: center;
+    gap: 20px;
+}
+
+#booking-table{
+    width: 600px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 70px;
+    background-color: #222831;
+    color: white;
+  }
+  
+  footer a {
+      color: white;
+  }
+  
+  #upperhalfinfo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  #upperhalfinfo > div {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+  }
+  
+  #lowerhalfinfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
